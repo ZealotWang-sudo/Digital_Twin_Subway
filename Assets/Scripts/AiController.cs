@@ -56,6 +56,26 @@ public class AiController : MonoBehaviour
        
                 Destroy(gameObject); 
             
+        }else if(col.tag == "Barrier" && type == "Passenger" ){
+
+                
+                agent.speed = (0.1f); 
+             
+
+        }
+
+      
+    }
+
+
+    void OnTriggerExit(Collider col){
+
+    if(col.tag == "Barrier" && type == "Passenger" ){
+
+                
+                agent.speed = (0.6f); 
+             
+
         }
 
       

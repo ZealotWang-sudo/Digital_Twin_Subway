@@ -12,6 +12,7 @@ TagManager:
   - Pedestrian
   - OutPedestrain
   - OutZone
+  - Barrier
   layers:
   - Default
   - TransparentFX
